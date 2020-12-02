@@ -11,6 +11,11 @@ public class Main {
         btree.insert(12);
         btree.insert(18);
         btree.insert(17);
-        btree.printTree();
+        System.out.println(btree.isBinarySearchTree());
+        btree.nodesAtDistanceK(0);
+
+
+
+
     }
 }
